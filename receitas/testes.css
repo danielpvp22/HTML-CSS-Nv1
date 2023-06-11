@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'Awesome';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Awesome Font'), url('Fontawesome-webfont.woff2') format ('woff2');
+}
+body{
+    background-color:rgba(240, 149, 133, 0.589);
+}
+.about-1{
+    margin: 0px;
+    padding: 3px;
+}
+.about-1 h1{
+    
+    color: black;
+    font-weight: bold;
+}
+.imagem{
+    width: 95%;
+}
+.about-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: rgba(240, 224, 133, 0.589);
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.6); 
+}
+@media (min-width:961px) { 
+    .about-item {
+        height: 95%;
+    }
+}
+
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+    font-family: 'Awesome';
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.about-item hr{
+    width: 95%;
+    height: 2px;
+    background-color: #93a8b4;
+    margin: 0 auto;
+    border: nome;
+}
+.about-item li{
+    font-family: 'Awesome';
+    font-size: 30px;
+    color: black;
+    margin-left: 10%;
+    text-align: left;
+    padding: 0;
+}
+.about-item p{
+    font-family: 'Awesome';
+    font-size: 20px;
+    color: black;
+    margin-left: 3%;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 200;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #212226;
+}
+footer p{
+    font-family: 'Awesome';
+    font-size: 20px;
+    color: #fff;
+}
